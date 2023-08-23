@@ -74,7 +74,7 @@ if page == "Home":
     load_css()
 
     col1, col2, col3 = st.columns(3)
-    col2.image(Image.open('image1.png'))
+    col2.image(Image.open('8bit.png'))
 
     st.header('Alexander Palmer')
 
