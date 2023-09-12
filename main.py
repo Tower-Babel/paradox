@@ -8,7 +8,7 @@ from online import st123
 st.set_page_config(layout="wide")
 
 st.sidebar.title("Navigation")
-page = st.sidebar.selectbox("Select a Page", ["Home", "Notebooks", "Projects": online.st123])
+page = st.sidebar.selectbox("Select a Page", ["Home", "Notebooks", "Projects"])
 
 st.title("Portfolio")
 
