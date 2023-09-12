@@ -79,7 +79,7 @@ st.write(
     """
 
 )
-image1 = Image.open("/online/img_1.jpg")
+image1 = Image.open("online/img_1.jpg")
 image2 = Image.open("img_2.jpg")
 image3 = Image.open("img_3.jpg")
 image4 = Image.open("img_4.jpg")
