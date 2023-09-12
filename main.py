@@ -101,8 +101,7 @@ elif page == "Notebooks":
         
         st.write("Query executed.")
        
-elif page == "Projects":
-   online/st123
+elif page == "Projects": online.st123
     
 
 
