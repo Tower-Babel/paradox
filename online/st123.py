@@ -80,12 +80,12 @@ st.write(
 
 )
 image1 = Image.open("online/img_1.jpg")
-image2 = Image.open("img_2.jpg")
-image3 = Image.open("img_3.jpg")
-image4 = Image.open("img_4.jpg")
-image5 = Image.open("img_5.jpg")
-image6 = Image.open("img_6.jpg")
-image7 = Image.open("img_7.jpg")
+image2 = Image.open("online/img_2.jpg")
+image3 = Image.open("online/img_3.jpg")
+image4 = Image.open("online/img_4.jpg")
+image5 = Image.open("online/img_5.jpg")
+image6 = Image.open("online/img_6.jpg")
+image7 = Image.open("online/img_7.jpg")
 
 st.image(image1, caption=None)
 st.image(image2, caption=None)
