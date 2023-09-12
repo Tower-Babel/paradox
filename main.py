@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
-import online.st123
+from online import st123
+
 
 
 st.set_page_config(layout="wide")
