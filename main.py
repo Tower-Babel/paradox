@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from online import st123
+
 
 
 
@@ -103,4 +103,4 @@ elif page == "Notebooks":
        
 elif page == "Projects":
    st.header("Projects")
-   st.write("https://a-project1.streamlit.app/")
+   st.write("Project 1: https://a-project1.streamlit.app/")
