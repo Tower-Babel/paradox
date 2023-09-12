@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+import online.st123
 
 
 st.set_page_config(layout="wide")
@@ -98,14 +99,6 @@ elif page == "Notebooks":
         
         st.write("Query executed.")
 
-elif page == "Projects":
-    st.header("Projects")
-    st.write("Reports page.")
-    
-    
-    st.subheader("PDF Report")
-    st.write("Click the button below to generate and download a PDF report.")
-    if st.button("Generate PDF Report"):
-        
-        st.write("PDF report generated and downloaded.")
+elif page == "Projects": online.st123
+
 
