@@ -101,4 +101,6 @@ elif page == "Notebooks":
         
         st.write("Query executed.")
        
-elif page == "Projects": online.st123
+elif page == "Projects":
+   st.header("Projects")
+   st.write("https://a-project1.streamlit.app/")
