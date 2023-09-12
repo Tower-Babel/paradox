@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+from online import st123
 
 
 
@@ -100,8 +101,8 @@ elif page == "Notebooks":
         
         st.write("Query executed.")
        
-elif page == "Projects": 
-    exec(open("online/st123.py").read())
+elif page == "Projects": online.st123
+
 
 
 
