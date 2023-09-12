@@ -102,10 +102,8 @@ elif page == "Notebooks":
         st.write("Query executed.")
        
 elif page == "Projects":
-    try:
-        exec(open("online/st123.py").read())
-    except Exception as e:
-        print(f"Error executing st123.py: {e}")
+   online/st123
+    
 
 
 
