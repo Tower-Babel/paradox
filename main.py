@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(layout="wide")
 
 st.sidebar.title("Navigation")
-page = st.sidebar.selectbox("Select a Page", ["Home", "Notebooks", "Database Projects"])
+page = st.sidebar.selectbox("Select a Page", ["Home", "Notebooks", "Projects"])
 
 st.title("Portfolio")
 
@@ -98,8 +98,8 @@ elif page == "Notebooks":
         
         st.write("Query executed.")
 
-elif page == "Database Projects":
-    st.header("Database Projects")
+elif page == "Projects":
+    st.header("Projects")
     st.write("Reports page.")
     
     
